@@ -133,7 +133,8 @@ function watcher() {
 
 //scripts
 const mainTasks = gulp.parallel(html, scss, js, img);
-
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
+const build = gulp.series(reset, mainTasks);
 
 gulp.task('default', dev);
+gulp.task('build', build);
