@@ -1,0 +1,42 @@
+{
+  "name": "kpsr2024",
+  "version": "1.0.0",
+  "description": "Landing Pages",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartynow/kpsr2024.git"
+  },
+  "author": "smartynow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartynow/kpsr2024/issues"
+  },
+  "homepage": "https://github.com/smartynow/kpsr2024#readme",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-webp": "latest",
+    "sass": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "not dead"
+  ]
+}
